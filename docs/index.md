@@ -1,4 +1,4 @@
-# Welcome to the e-resource center of Nimbus
+# Welcome
 
 This is a knowledge repository that will store years of cumulated knowledge related to debating and Munning ranging from debating manuals and guide PDFs to helpful youtube videos and debating mech notes. 
 

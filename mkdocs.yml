@@ -1,3 +1,20 @@
 site_name: Nimbus e-resources
 theme:
+  logo: assets/logo.png
+  palette:
+    primary: orange
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tabs.sections
+
+nav:
+  - Home: index.md
+  - Articles: articles.md
+  - guides: guides.md
+  - videos: videos.md
+  - MUN: MUN.md
+  - Nimbus: Nimbus.md
+
+copyright: Copyright &copy; 2025 Priyongshu Paul
