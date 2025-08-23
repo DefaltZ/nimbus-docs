@@ -4,6 +4,7 @@ theme:
   palette:
     primary: orange
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -11,10 +12,25 @@ theme:
 
 nav:
   - Home: index.md
-  - Articles: articles.md
-  - guides: guides.md
-  - videos: videos.md
-  - MUN: MUN.md
-  - Nimbus: Nimbus.md
+  - Resources:
+    - Articles:
+      - Cloud Computing: resources/articles/cloud-computing.md
+    - guides:
+      - guides: resources/guides/guide.md
+    - videos: 
+      - videos: resources/videos/videos.md
+    - MUN: 
+      - MUN: resources/MUN/mun.md
+  - About: 
+    - Nimbus: about/Nimbus.md
+    - Announcements: about/announcements.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 copyright: Copyright &copy; 2025 Priyongshu Paul
