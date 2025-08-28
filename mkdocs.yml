@@ -20,7 +20,7 @@ nav:
     - videos: 
       - videos: resources/videos/videos.md
     - MUN: 
-      - MUN: resources/MUN/mun.md
+      - An overview of CBRN: resources/MUN/cbrn-article.md
   - About: 
     - Nimbus: about/Nimbus.md
     - Announcements: about/announcements.md
@@ -29,6 +29,7 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
