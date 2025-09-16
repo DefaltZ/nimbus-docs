@@ -16,7 +16,7 @@ nav:
     - Articles:
       - Cloud Computing: resources/articles/cloud-computing.md
     - guides:
-      - guides: resources/guides/guide.md
+      - Asian Parliamentary Debating: resources/guides/guide.md
     - videos: 
       - videos: resources/videos/videos.md
     - MUN: 
@@ -24,6 +24,7 @@ nav:
   - About: 
     - Nimbus: about/Nimbus.md
     - Announcements: about/announcements.md
+  - Sponsors: sponsors/sponsors.md
 
 extra_css:
   - stylesheets/extra.css
