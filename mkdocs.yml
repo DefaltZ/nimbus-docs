@@ -14,7 +14,9 @@ nav:
   - Home: index.md
   - Resources:
     - Articles:
-      - Cloud Computing: resources/articles/cloud-computing.md
+      
+      - Principles of Natural Justice: resources/articles/principles-of-natural-justice.md
+      - Dummy's guide to economic logic: resources/articles/economic-logic.md
     - guides:
       - Asian Parliamentary Debating: resources/guides/guide.md
     - videos: 

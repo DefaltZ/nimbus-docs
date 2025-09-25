@@ -6,6 +6,10 @@ Just like its contemporary British Parliamentary format, Asian Parliamentary for
 
 Every year or two there are minute changes to the manual for marking criterias, or the introduction of a new form of motion prefix, for example the recently introduced **This House Predicts** introduced in the UADC 2022 manual. But in its entirety the manual largely remains unchanged and standardized throughout; across all your tournaments anywhere on the face of Earth, as long as it is an APD tournmanent, the UADC manual will serve as your holy bible. The most recent article will be linked at the footnote of this article in the very end.
 
+**DISCLAIMER**
+
+*While this guide stays true to the UADC manual in structure and essence of content, simplifications to the text, modifications or insertion of other text/examples are made in this guide to make it better suited for novice debators to grasp.*
+
 ## Basics
 
 There are two teams in a debate, each team having three members. The room has a number of judges, with one designated as "Chair", and the other judges are designated as "panelists" and "trainees". The chair oversees the debate, handles the proceedings by calling in speakers, and calling order if necessary. The chair submits a ballot, and gives a decision regarding who they believe won the debate. A panelist is a supporting judge to the chair, who also submits a ballot, and gives a decision regarding who they believe won the debate. A trainee is a supporting judge to the chair, who does not submit a ballot/vote but still gives adecision regarding who they believe won the debate. While a trainee gives a decision, their decision is not considered in the final results of the round. The final decision of the debate rests with the Chair.
@@ -144,4 +148,39 @@ For example in a THW motion, it is an implicit burden on the gov bench to weigh 
 
 ## Definitions
 
-Cant do this no more twin
+The first motion definition is setup by the Prime Minister, This is especialy important in a THW motion with policy burden as the functional mechanism of the policy have to be extensive and as airtight as possible. For example "THW ban all zoos", the government team has to define "zoos" and how this ban will be enacted, how safe transfers for animals raised in captivity will be enacted, how wildlife education can still take place and other extensive reasons. 
+
+There is a common misunderstanding that definitions are to narrow down the scope of your debate, this is not entirely true. Definitions should generally always be wide in scope to ensure that debate happens within the "spirit of the motion", while it is arguments that narrow it down to core clashes. 
+
+Few things to keep in mind regarding definitions:
+
+* Teams cannot make definitions overly restrictive. For example "TH as the US government Will not enter into anymore wars" as a motion, do not restrict "wars" into those occuring only in certain regions or only a huge world war. This definition is then open for challenging which will also be credited. Limiting the ambit of your debate sets you up for a bad debate from the get go.
+
+* Do not try to skew motion definitions into something that is not intuitively understood or inconsistent with the motion. For example
+    - "THW ban guns", gov cannot setup the debate exclusively about "revolvers".
+
+    - "THW sanction Iran", the gov **CANNOT** setup the motion around the tea that comes from Iran instead of the country (yeah this happens apparently).
+
+* Unless the motion/infoslide demands, teams cannot setup the debate in a specific time or place. For example in "THW ban guns", the debate cannot be setup in the 1900s or just in 308 Negra Arroya Lane, Albuquerque, New Mexico. It has to be debated in the status quo, in retrospective.
+
+* If the motion uses the word "rise of" debators can assume that the rise has already occured. It is within scope to define what the extent of the rise is. This means the definition does not prevent teams from arguing that the rise will continue into the future and there are particular harms and benefits attached to that future rise.
+
+* Any undefined phrasings of motions should be treated as ‘This House Supports/ Opposes’. 
+
+
+For judges, its not upto you to attack the definition, unless there is an active clash in terms of the definition amongst the team. If the definition is proven to be vague, inconsistent, then they should be penalised for the extent to which it prevented them from making non-exclusive arguments in the debate. Opposition teams should not be penalized for Government teams vagueness. Judges should allow Opposition teams to advance fair and reasonable assumptions, so long as they reasonably and logically follow from Government teams' vague definitions.
+
+### Vague Definition and how not to make them
+
+A vague definition does not clearly answer certain vital questions about what is meant by the motion or what will happen under the policy that the government is defending. 
+
+A vague definition is not per say an invalid definition. Its a definition that undermines the persuasiveness of the policy/arguments the team is trying to push. The best thing the Opposition teams can do is callout this vagueness via rebuttals/POIs and they will be credited as long as they can prove the vagueness/invalidity of the definitions set up the other team. Opposition might choose to argue that, given that the motion has been vaguely specified, a certain reasonable consequence or interpretation might be inferred from it. But they are not permitted to ignore the definition that was made, replace it with a preferred definition of their own choice.
+
+A sound policy answers the following questions: **"How", "When", "Where", "Why", "What", "Who"**. Answering at least 4 out of the 5 of these questions within the first gov speech is instrumental to advance a foolproof foundation for the next arguments.
+
+Who is going to implement this policy? Who are the most immediate stakeholders? Where do these stakeholders come from? How will this policy be implemented? And Why will the stakeholders of this policy opt-into this change? What are the exclusive benefits of this policy? These are just some of the policy strengthening questions teams can cater to during case prep. 
+
+### Definition challenges
+
+Cant do ts no more gang
+
