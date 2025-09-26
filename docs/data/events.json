@@ -1,57 +1,16 @@
 {
   "events": [
     {
-      "id": 1,
-      "title": "Inter-Varsity Debate Championship 2025",
-      "date": "2025-03-15",
-      "time": "09:00 AM",
-      "location": "Main Auditorium, University Campus",
-      "description": "Join us for the annual inter-varsity debate championship featuring teams from universities across the region. This year's theme focuses on 'Digital Transformation in Education'.",
-      "type": "competition",
-      "registration_required": true,
-      "registration_deadline": "2025-03-10",
-      "max_participants": 32,
-      "current_participants": 24,
-      "status": "open"
+     
     },
     {
-      "id": 2,
-      "title": "Workshop: Advanced Argumentation Techniques",
-      "date": "2025-02-28",
-      "time": "02:00 PM",
-      "location": "Room 201, Debate Hall",
-      "description": "Learn advanced argumentation strategies and logical fallacies. Perfect for both beginners and experienced debaters looking to sharpen their skills.",
-      "type": "workshop",
-      "registration_required": true,
-      "registration_deadline": "2025-02-25",
-      "max_participants": 20,
-      "current_participants": 15,
-      "status": "open"
+      
     },
     {
-      "id": 3,
-      "title": "Monthly Society Meeting",
-      "date": "2025-02-15",
-      "time": "06:00 PM",
-      "location": "Online - Zoom",
-      "description": "Monthly society meeting to discuss upcoming events, member feedback, and plan future activities. All members are encouraged to attend.",
-      "type": "meeting",
-      "registration_required": false,
-      "status": "open"
+      
     },
     {
-      "id": 4,
-      "title": "Debate Masterclass with Dr. Sarah Johnson",
-      "date": "2025-01-30",
-      "time": "04:00 PM",
-      "location": "Conference Room A",
-      "description": "Special masterclass with renowned debate coach Dr. Sarah Johnson. Limited seats available. Registration required.",
-      "type": "masterclass",
-      "registration_required": true,
-      "registration_deadline": "2025-01-25",
-      "max_participants": 15,
-      "current_participants": 15,
-      "status": "full"
+     
     }
       ],
       "last_updated": "2025-01-20T10:30:00Z"
