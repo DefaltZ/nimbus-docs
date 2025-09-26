@@ -1,5 +1,6 @@
 # Principles of Natural Justice
-*Priyongshu Paul*
+
+***Please do not cite this article in your law assignment if you ever come across this***
 
 ## 1. What is Natural justice
 

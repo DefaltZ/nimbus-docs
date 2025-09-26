@@ -9,14 +9,167 @@
       document.addEventListener('DOMContentLoaded', function() {
         const article = document.querySelector('article.md-content__inner');
         if (article) {
-          article.innerHTML = `
-            <h1>📢 Announcements</h1>
-            <p class="announcement-subtitle">Stay informed about upcoming debating society events and inter-varsity competitions</p>
-            
-            
-          `;
+          loadEventsData();
         }
       });
+
+      async function loadEventsData() {
+        try {
+          // Try multiple possible paths for the JSON file
+          const possiblePaths = [
+            './data/events.json',
+            '/data/events.json',
+            'data/events.json',
+            '../data/events.json',
+            './assets/events.json',
+            '/assets/events.json',
+            'assets/events.json'
+          ];
+          
+          let response = null;
+          let lastError = null;
+          
+          for (const path of possiblePaths) {
+            try {
+              console.log('Trying to fetch from:', path);
+              response = await fetch(path);
+              if (response.ok) {
+                console.log('Successfully loaded from:', path);
+                break;
+              } else {
+                console.log('Failed to load from:', path, 'Status:', response.status);
+              }
+            } catch (err) {
+              console.log('Error fetching from:', path, err);
+              lastError = err;
+            }
+          }
+          
+          if (!response || !response.ok) {
+            throw new Error(`Failed to load events data. Last error: ${lastError ? lastError.message : 'Unknown error'}`);
+          }
+          
+          const data = await response.json();
+          displayEvents(data);
+        } catch (error) {
+          console.error('Error loading events:', error);
+          displayError(error.message);
+        }
+      }
+
+      function displayEvents(data) {
+        const article = document.querySelector('article.md-content__inner');
+        const events = data.events;
+        
+        // Sort events by date (upcoming first)
+        const sortedEvents = events.sort((a, b) => new Date(a.date) - new Date(b.date));
+        
+        let eventsHTML = `
+          <h1>📢 Announcements</h1>
+          <p class="announcement-subtitle">Stay informed about upcoming debating society events and inter-varsity competitions</p>
+          
+          <div class="events-container">
+            <div class="events-header">
+              <h2>Upcoming Events</h2>
+              <p class="last-updated">Last updated: ${new Date(data.last_updated).toLocaleDateString()}</p>
+            </div>
+            <div class="events-grid">
+        `;
+
+        // Display all events in a single grid
+        sortedEvents.forEach(event => {
+          eventsHTML += createEventCard(event);
+        });
+
+        eventsHTML += `
+            </div>
+          </div>
+        `;
+
+        article.innerHTML = eventsHTML;
+      }
+
+      function createEventCard(event) {
+        const eventDate = new Date(event.date);
+        const isUpcoming = eventDate >= new Date();
+        const isFull = event.status === 'full';
+        const isClosed = event.status === 'closed';
+        
+        let statusBadge = '';
+        if (isFull) {
+          statusBadge = '<span class="status-badge full">Full</span>';
+        } else if (isClosed) {
+          statusBadge = '<span class="status-badge closed">Closed</span>';
+        } else if (isUpcoming) {
+          statusBadge = '<span class="status-badge open">Open</span>';
+        }
+
+        let registrationInfo = '';
+        if (event.registration_required) {
+          const regDeadline = new Date(event.registration_deadline);
+          const isRegOpen = regDeadline >= new Date();
+          
+          registrationInfo = `
+            <div class="registration-info">
+              <p class="registration-status ${isRegOpen ? 'open' : 'closed'}">
+                ${isRegOpen ? 'Registration Open' : 'Registration Closed'}
+              </p>
+              <p class="registration-deadline">Deadline: ${regDeadline.toLocaleDateString()}</p>
+              ${event.max_participants ? `
+                <p class="participant-count">
+                  ${event.current_participants}/${event.max_participants} participants
+                </p>
+              ` : ''}
+            </div>
+          `;
+        }
+
+        return `
+          <div class="event-card ${event.type} ${isUpcoming ? 'upcoming' : 'past'}">
+            <div class="event-header">
+              <h4 class="event-title">${event.title}</h4>
+              ${statusBadge}
+            </div>
+            <div class="event-details">
+              <div class="event-date">
+                <span class="date-icon">📅</span>
+                <span>${eventDate.toLocaleDateString('en-US', { 
+                  weekday: 'long', 
+                  year: 'numeric', 
+                  month: 'long', 
+                  day: 'numeric' 
+                })}</span>
+              </div>
+              <div class="event-time">
+                <span class="time-icon">🕐</span>
+                <span>${event.time}</span>
+              </div>
+              <div class="event-location">
+                <span class="location-icon">📍</span>
+                <span>${event.location}</span>
+              </div>
+            </div>
+            <div class="event-description">
+              <p>${event.description}</p>
+            </div>
+            ${registrationInfo}
+          </div>
+        `;
+      }
+
+      function displayError(errorMessage = 'Unknown error') {
+        const article = document.querySelector('article.md-content__inner');
+        article.innerHTML = `
+          <h1>📢 Announcements</h1>
+          <p class="announcement-subtitle">Stay informed about upcoming debating society events and inter-varsity competitions</p>
+          <div class="error-message">
+            <p>⚠️ Unable to load events data.</p>
+            <p><strong>Error:</strong> ${errorMessage}</p>
+            <p>Please check the browser console for more details and try refreshing the page.</p>
+            <p><em>Note: If you're running MkDocs locally, make sure the server is running and the JSON file is accessible.</em></p>
+          </div>
+        `;
+      }
     </script>
   {% else %}
     {{ super() }}

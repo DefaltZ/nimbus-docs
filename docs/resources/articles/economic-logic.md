@@ -58,7 +58,7 @@ Teams need to analyse the inherent nature of externalities that may benefit or i
 
 Typically when debating externalities, especially negatives, **the point is not to ignore or mech out its existence, but to flip it and push a bigger harm on the other team**, as seen on the motion above. The price that a lot of people will pay due to not meeting energy demands is a lot more than benefits from combatting climate change. 
 
-## Marginal Thinkng
+## 5. Marginal Thinkng
 
 Marginal thinking is about focusing on the impact of the next step, rather than the whole picture. In economics, it means weighing the extra benefits and costs of one more unit of action to decide if it’s worth doing. People use marginal thinking to make smarter choices, avoiding wasted effort or spending where benefits don’t outweigh costs. For example, buying a second slice of pizza might bring less satisfaction than the first, so you decide based on the ‘extra’ enjoyment it adds.
 

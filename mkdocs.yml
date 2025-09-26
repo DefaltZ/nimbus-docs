@@ -10,13 +10,16 @@ theme:
     - navigation.tabs.sticky
     - navigation.tabs.sections
 
+# Configure static file serving
+use_directory_urls: true
+
 nav:
   - Home: index.md
   - Resources:
     - Articles:
-      
       - Principles of Natural Justice: resources/articles/principles-of-natural-justice.md
       - Dummy's guide to economic logic: resources/articles/economic-logic.md
+      - Thinking from the lens of nations: resources/articles/nation.md
     - Guides:
       - Asian Parliamentary Debating: resources/guides/guide.md
     - Videos: 
