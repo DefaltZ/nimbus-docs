@@ -23,7 +23,8 @@ nav:
     - Guides:
       - Asian Parliamentary Debating: resources/guides/guide.md
     - Videos: 
-      - videos: resources/videos/videos.md
+      - Debate videos: resources/videos/videos.md
+      - Recommended Watches: resources/videos/extras.md
     - MUN: 
       - An overview of CBRN: resources/MUN/cbrn-article.md
   - About: 
@@ -33,6 +34,9 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - mkdocs-video
 
 markdown_extensions:
   - attr_list

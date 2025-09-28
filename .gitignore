@@ -33,6 +33,7 @@ MANIFEST
 # MkDocs
 site/
 .cache/
+http_cache.sqlite
 
 # IDE and Editor files
 .vscode/
