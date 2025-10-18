@@ -309,6 +309,11 @@
   border-left: 4px solid #dc3545;
 }
 
+/* justfy align */
+.md-typeset p {
+  text-align: justify;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .announcement-cards {
