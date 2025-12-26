@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "name": "SpeakUp 14.0 - Legacy Freshers's Asian Parliamentary Debate",
+      "dates": "10th - 12th January 2026",
+      "startDate": "2026-01-10",
+      "endDate": "2026-01-12",
+      "mode": "Offline",
+      "venue": "SGGSCC Campus, Pitampura",
+      "format": "3v3 APD",
+      "registrationFees": "₹650 per person",
+      "adjudicatorPolicy": "N=N",
+      "status": "open"
+    },
+    {
+      "name": "Symcharcha 12th Edition",
+      "dates": "5th - 6th February 2026",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-06",
+      "mode": "Offline",
+      "venue": "SCMS, Noida",
+      "format": "3v3 APD",
+      "registrationFees": "₹649 per speaker/adjudicator",
+      "adjudicatorPolicy": "N=N-1",
+      "status": "open"
+    },
+    {
+      "name": "Gambit - Fresher's tournament",
+      "dates": "24th - 26th January 2026",
+      "startDate": "2026-01-24",
+      "endDate": "2026-01-26",
+      "mode": "Online",
+      "venue": "Discord + gmeet",
+      "format": "3v3 APD",
+      "registrationFees": "₹550 per speaker/adj",
+      "adjudicatorPolicy": "N=N",
+      "status": "open"
+    }
+  ],
+  "last_updated": "2025-12-26T10:30:00Z"
+}
